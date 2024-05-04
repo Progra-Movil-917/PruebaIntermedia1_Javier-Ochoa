@@ -8,10 +8,10 @@ class ColorChangeWidget extends StatefulWidget {
 
 class _ColorChangeWidgetState extends State<ColorChangeWidget> {
   // Define el color inicial del contenedor.
-  Color _currentColor = Colors.blue;
+  Color _currentColor = Colors.green;
 
   // Lista de colores disponibles para alternar.
-  List<Color> _availableColors = [Colors.blue, Colors.red];
+  List<Color> _availableColors = [Colors.green, Colors.red];
 
   // Función para cambiar el color al siguiente de la lista.
   void _changeColor() {
